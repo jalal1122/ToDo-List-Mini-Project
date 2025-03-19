@@ -236,3 +236,7 @@ li .left {
 li .Btn {
   align-self: flex-end;
 }
+
+.completed{
+  text-decoration: line-through;
+}
