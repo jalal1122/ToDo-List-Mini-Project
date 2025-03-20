@@ -152,7 +152,7 @@ body {
 }
 
 h1 {
-  color: #202D73;
+  color: #202d73;
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 20px;
@@ -227,6 +227,10 @@ li {
   border-radius: 30px;
 }
 
+li:hover {
+  background-color: grey;
+}
+
 li .left {
   display: flex;
   align-items: center;
@@ -237,6 +241,28 @@ li .Btn {
   align-self: flex-end;
 }
 
-.completed{
-  text-decoration: line-through;
+@media screen and (max-width: 500px) {
+  .container-outer {
+    width: 90%;
+  }
+
+  .input-group {
+    width: 90%;
+  }
+
+  .input-group input {
+    width: 80%;
+  }
+
+  .input-group button {
+    padding: 10px 20px;
+  }
+
+  ul {
+    width: 90%;
+  }
+
+  li {
+    width: 100%;
+  }
 }
